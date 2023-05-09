@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desplegables</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
+.0/css/bootstrap.min.css">
+	</head>
+
+<body>
+	
+	<div class="jumbotron text-center">
+  <h1>DESPLEGABLES</h1>
+</div>	
+	
+	<div class="container">
+	
+	<h6>Menú básico con división</h6>
+	<div class="dropdown">
+		
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" > Menú desplegable </button>
+		
+		<div class="dropdown-menu">
+		
+		<a class="dropdown-item" href="#">Opción uno</a>
+		<a class="dropdown-item" href="#">Opción dos</a>
+		<a class="dropdown-item" href="#">Opción tres</a>
+			
+			<div class="dropdown-divider"></div>
+			
+			<a class="dropdown-item" href="#">Opción X</a>
+							
+		</div>
+							</div> <br><br><br>
+	
+	
+	<h6>Menú básico con división y encabezado</h6>
+	<div class="dropdown">
+		
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" > Menú</button>
+		
+		<div class="dropdown-menu dropdown-menu-right">
+		<div class="dropdown-header">Sección 1 </div>
+			
+		<a class="dropdown-item" href="#">Opción uno $12.50</a>
+		<a class="dropdown-item active" href="#">Opción dos $35.50</a>
+		<a class="dropdown-item" href="#">Opción tres $120.50</a>
+			
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-header">Sección 2 </div>
+			
+			<a class="dropdown-item disabled" href="#">Opción X</a>
+							
+		</div>
+		
+					</div> <br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+	
+	
+	
+		
+		
+	<h6>Menú básico con división, encabezado y desplegado hacia arriba</h6>
+	<div class="dropup">
+		
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" > Menú</button>
+		
+		<div class="dropdown-menu">
+		<div class="dropdown-header">Sección 1 </div>
+			
+		<a class="dropdown-item" href="#">Opción uno $12.50</a>
+		<a class="dropdown-item active" href="#">Opción dos $35.50</a>
+		<a class="dropdown-item" href="#">Opción tres $120.50</a>
+			
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-header">Sección 2 </div>
+			
+			<a class="dropdown-item disabled" href="#">Opción X</a>
+							
+		</div>
+		
+					</div>
+	
+		
+		<h6>Menú desplegable de botones divididos</h6>
+		
+		<div class="btngroup">
+			
+			<!--botón 1-->
+		<button type="button" class="btn btn-secondary">Sony </button>
+		<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+			<span class="caret"></span>
+			</button>
+		
+			<div class="dropdown-menu">
+			
+			<a class="dropdown-item" href="#">Tablet</a>
+			<a class="dropdown-item" href="#">Smartphone</a>
+			
+						</div>
+		<!--fin botón 1-->
+			
+			
+			
+			<!--botón 2-->
+		<button type="button" class="btn btn-primary">Toshiba </button>
+		<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+			<span class="caret"></span>
+			</button>
+		
+			<div class="dropdown-menu">
+			
+			<a class="dropdown-item" href="#">Tablet</a>
+			<a class="dropdown-item" href="#">Smartphone</a>
+			
+						</div>
+		<!--fin botón 2-->
+			
+			
+			
+			<!--botón 3-->
+		<button type="button" class="btn btn-warning">LG </button>
+		<button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+			<span class="caret"></span>
+			</button>
+		
+			<div class="dropdown-menu">
+			
+			<a class="dropdown-item" href="#">Tablet</a>
+			<a class="dropdown-item" href="#">Smartphone</a>
+			
+						</div>
+		<!--fin botón 3-->
+			
+		
+		</div>
+		<div class="jumbotron text-center">
+  <h1>COLAPSABLES</h1>
+</div>
+		
+		<a data-toggle="collapse" href="#muestra"> clic para ocultar</a>
+		
+	<button class="btn btn-danger" data-toggle="collapse" data-target="#muestra" >clic para mostrar </button>	
+		
+		<div id="muestra" class="collapse show"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit tempore cumque ullam unde quibusdam velit ab. Delectus, aliquam perspiciatis ea. Velit nostrum animi officia, provident explicabo consequatur iusto temporibus. Ut.</p> </div>
+		
+		<br><br>	<br><br>
+		
+		<h6>Acordeón plegable</h6>
+		
+		<div id="acdordion">
+		
+			<!--tarjeta 1-->
+		<div class="card">
+			
+			<div class="card-header"><a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#panel_1">Opción 1</a></div>
+			
+			<div id="panel_1" class="collapse show">
+			
+			<div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit necessitatibus, consequuntur atque? Perspiciatis odit harum nulla sed corrupti eligendi? Itaque consequuntur perferendis ipsam inventore ab atque voluptatibus possimus sapiente praesentium? </div>
+				
+			</div>
+			
+			</div>
+		
+		<!--FIN tarjeta 1-->
+		
+			<!--tarjeta 2-->
+		<div class="card">
+			
+			<div class="card-header"><a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#panel_2">Opción 2</a></div>
+			
+			<div id="panel_2" class="collapse show">
+			
+			<div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ducimus atque officia ipsa cum quia dolorem ipsum? Adipisci facere blanditiis praesentium aut similique culpa quae enim quas tenetur, accusantium! Dolore. </div>
+				
+			</div>
+			
+			</div>
+		
+		<!--FIN tarjeta 2-->
+		
+		
+			<!--tarjeta 3-->
+		<div class="card">
+			
+			<div class="card-header"><a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#panel_3">Opción 3</a></div>
+			
+			<div id="panel_3" class="collapse show">
+			
+			<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sunt reprehenderit tempora facere ex voluptatum nulla accusamus molestiae labore, tempore doloremque qui a incidunt repudiandae earum! Blanditiis ea, quis expedita! </div>
+				
+			</div>
+			
+			</div>
+		
+		<!--FIN tarjeta 3-->
+			
+			
+			
+		</div>
+		
+		
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+.js"></script>
+
+	
+	
+	
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
+opper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script>
+	
+	
+	
+</body>
+</html>
